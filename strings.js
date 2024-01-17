@@ -8,3 +8,7 @@ title= `CTO`
 let fullName = firtName+ ""+ lastName;
 fullName=`${firtName} ${lastName}`
 console.log(fullName)
+
+// Creating multi-line strings with \n
+let bio ="line 1\nline 2\nLine 3\nLine "
+console.log(bio)
