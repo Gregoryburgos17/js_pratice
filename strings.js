@@ -29,3 +29,21 @@ console.log(`Quote Length: ${length}`);
 //Accessing specific characters
 let secondCharacter= quote[1];
 console.log(`Second Character : ${secondCharacter}`)
+ 
+// changing case
+let uppercaseName =fullName.toUpperCase();
+console.log(uppercaseName);
+let lowercaseName =fullName.toLowerCase();
+console.log(lowercaseName );
+
+//Finding a substring
+let idx1 = fullName.indexOf("Gre");
+console.log(`Index 1: ${idx1}`)
+let idx2 = fullName.indexOf("Bur");
+console.log(`Index 2: ${idx2}`)
+let idx3 = fullName.indexOf("xyz");
+console.log(`Index 3: ${idx3}`);
+
+// Does a string contain a substring
+let doesContain =fullName.includes("Dav");
+console.log(doesContain)
